@@ -1,0 +1,37 @@
+# Local .terraform directories
+.terraform/
+
+# Ignore .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Ignore crash log files
+crash.log
+
+# Ignore override files (for local changes that you don't want to commit)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore plan output files
+*.tfplan
+
+# Ignore variable files with sensitive information
+*.tfvars
+*.tfvars.json
+
+# Ignore private key files
+*.pem
+*.key
+*.ppk
+# Ignore backup files
+*.backup
+
+# Ignore lock file
+.terraform.lock.hcl
+
+# Ignore generated files like core dumps, etc.
+*.log
+*.out
+*.err
